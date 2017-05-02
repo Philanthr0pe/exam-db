@@ -10,11 +10,12 @@ public class CommandController {
 
     final static Logger logger = Logger.getLogger(CommandController.class);
 
+
     public static void main(String[] args) {
 
         CommandController commandController = new CommandController();
 
-        if (args[0] == null || args[1] == null) {
+        if (args.length == 0 || args.length == 1) {
             System.err.println("Need args!");
             logger.equals("args is empty");
             return;

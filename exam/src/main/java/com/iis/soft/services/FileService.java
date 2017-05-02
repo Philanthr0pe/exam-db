@@ -80,6 +80,6 @@ public class FileService {
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
-        return path + "/" + filename;
+        return path  + filename;
     }
 }

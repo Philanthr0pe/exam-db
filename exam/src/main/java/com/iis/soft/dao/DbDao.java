@@ -6,6 +6,7 @@ import com.iis.soft.models.DepWorker;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -25,7 +26,7 @@ public class DbDao {
      * @return - all objects from database
      */
     public Set<DepWorker> getAll() {
-        Set<DepWorker> depWorkers = null;
+        Set<DepWorker> depWorkers = new HashSet<>();
         Connection connection = dbDataSource.getConnection();
         try (PreparedStatement preparedStatement = connection.prepareStatement(getAllStatement())) {
             ResultSet resultSet = preparedStatement.executeQuery();

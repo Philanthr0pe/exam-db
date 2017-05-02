@@ -43,6 +43,11 @@ public class XmlDao {
             document.getDocumentElement().normalize();
             NodeList depWorkerEls = document.getElementsByTagName("depWorker");
 
+            if (depWorkerEls.getLength() == 0) {
+                logger.info("Empty file");
+                return new HashSet<>();
+            }
+
             for (int i = 0; i < depWorkerEls.getLength(); i++) {
                 Node item = depWorkerEls.item(i);
                 if (item.getNodeType() == Node.ELEMENT_NODE) {
@@ -70,6 +75,10 @@ public class XmlDao {
      * @param depWorkers - set of objects to import into file
      */
     public void writeToXml(String filename, Set<DepWorker> depWorkers) {
+        if (depWorkers == null) {
+            logger.info("Database is empty");
+            return;
+        }
         logger.info("Start write to file: " + filename);
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         try {
@@ -77,6 +86,8 @@ public class XmlDao {
             Document document = documentBuilder.newDocument();
             Element rootElement = document.createElement("company");
             document.appendChild(rootElement);
+
+
 
             for (DepWorker depWorker : depWorkers) {
                 Element depWorkerElement = document.createElement("depWorker");
@@ -95,7 +106,10 @@ public class XmlDao {
 
             DOMSource domSource = new DOMSource(document);
 
-            StreamResult streamResult = new StreamResult(filename);
+            File file = new File(filename);
+            file.createNewFile();
+
+            StreamResult streamResult = new StreamResult(file);
 
             Transformer transformer = TransformerFactory.newInstance()
                     .newTransformer();
@@ -105,7 +119,7 @@ public class XmlDao {
             transformer.transform(domSource, streamResult);
 
             logger.info("Write to file: " + filename);
-        } catch (ParserConfigurationException | TransformerException e) {
+        } catch (ParserConfigurationException | TransformerException  | IOException e) {
             logger.error("XmlDao write error: ", e);
         }
     }
