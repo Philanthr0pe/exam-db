@@ -15,20 +15,16 @@ public class FileServiceTest {
     }
 
     @Test
-    public void getAllFromDB() throws Exception {
-        fileService.getAllFromDB();
+    public void fromDbToXml() throws Exception {
+        String filename = "test.xml";
+        fileService.fromDbToXml(filename);
     }
 
     @Test
-    public void insertAll() throws Exception {
-        int count = 100;
-        fileService.insertAll(count);
-    }
+    public void syncDbWithXml() {
+        String filename = "test.xml";
+        fileService.syncDbWithXml(filename);
 
-    @Test
-    public void myTest() throws Exception {
-        this.insertAll();
-        this.getAllFromDB();
     }
 
 }

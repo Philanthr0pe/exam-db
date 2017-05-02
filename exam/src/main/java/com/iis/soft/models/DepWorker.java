@@ -9,10 +9,21 @@ public class DepWorker {
     private String depJob;
     private String depDescription;
 
+    public DepWorker(int id, String depCode, String depJob, String depDescription) {
+        this.id = id;
+        this.depCode = depCode;
+        this.depJob = depJob;
+        this.depDescription = depDescription;
+    }
+
     public DepWorker(String depCode, String depJob, String depDescription) {
         this.depCode = depCode;
         this.depJob = depJob;
         this.depDescription = depDescription;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getDepCode() {

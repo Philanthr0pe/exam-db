@@ -1,0 +1,4 @@
+com\iis\soft\CommandControllerTest.class
+com\iis\soft\dao\DbDaoTest.class
+com\iis\soft\dao\dataSources\DbDataSourceTest.class
+com\iis\soft\services\FileServiceTest.class

@@ -1,0 +1,7 @@
+com\iis\soft\CommandController.class
+com\iis\soft\models\DepWorker.class
+com\iis\soft\dao\dataSources\DbDataSource.class
+com\iis\soft\dao\XmlDao.class
+com\iis\soft\services\FileService.class
+com\iis\soft\dao\utils\ResultSetExtractor.class
+com\iis\soft\dao\DbDao.class

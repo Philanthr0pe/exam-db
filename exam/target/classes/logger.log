@@ -1,0 +1,912 @@
+2017-05-02 02:13:18 INFO  DbDataSource:36 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 02:13:48 INFO  DbDataSource:36 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 02:13:56 INFO  DbDataSource:36 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:07:18 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:07:18 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:07:18 INFO  DbDao:37 - Select all
+2017-05-02 03:07:18 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:07:18 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:07:18 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:07:56 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:07:56 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:07:56 INFO  DbDao:64 - Insert data
+2017-05-02 03:07:56 INFO  DbDao:37 - Select all
+2017-05-02 03:07:56 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:07:56 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:07:56 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:08:18 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:08:18 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:08:18 INFO  DbDao:64 - Insert data
+2017-05-02 03:08:18 INFO  DbDao:37 - Select all
+2017-05-02 03:08:18 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:08:18 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:08:18 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:10:12 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:10:12 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:10:12 INFO  DbDao:64 - Insert data
+2017-05-02 03:10:12 INFO  DbDao:37 - Select all
+2017-05-02 03:10:12 INFO  DbDao:93 - Delete data
+2017-05-02 03:10:12 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:10:12 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:10:12 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:10:47 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:10:47 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:10:47 INFO  DbDao:64 - Insert data
+2017-05-02 03:10:47 INFO  DbDao:37 - Select all
+2017-05-02 03:10:47 INFO  DbDao:91 - Delete data
+2017-05-02 03:10:47 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:10:47 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:10:47 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:11:21 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:11:21 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:11:21 INFO  DbDao:64 - Insert data
+2017-05-02 03:11:21 INFO  DbDao:37 - Select all
+2017-05-02 03:11:22 INFO  DbDao:91 - Delete data
+2017-05-02 03:11:22 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:11:22 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:11:22 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:11:47 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-05-02 03:11:47 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:11:47 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:11:47 INFO  DbDao:37 - Select all
+2017-05-02 03:11:48 INFO  DbDao:91 - Delete data
+2017-05-02 03:11:48 INFO  DbDao:64 - Insert data
+2017-05-02 03:11:48 INFO  DbDao:117 - Update data
+2017-05-02 03:11:48 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:11:48 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:11:48 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:11:59 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:11:59 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:12:00 INFO  DbDao:37 - Select all
+2017-05-02 03:12:00 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:12:00 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:12:00 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:12:00 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml
+2017-05-02 03:12:00 ERROR XmlDao:109 - XmlDao write error: 
+javax.xml.transform.TransformerException: java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.getOutputHandler(TransformerImpl.java:521)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:336)
+	at com.iis.soft.dao.XmlDao.writeToXml(XmlDao.java:105)
+	at com.iis.soft.services.FileService.fromDbToXml(FileService.java:31)
+	at com.iis.soft.services.FileServiceTest.fromDbToXml(FileServiceTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+Caused by: java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.getOutputHandler(TransformerImpl.java:506)
+	... 32 more
+---------
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:162)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.getOutputHandler(TransformerImpl.java:506)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:336)
+	at com.iis.soft.dao.XmlDao.writeToXml(XmlDao.java:105)
+	at com.iis.soft.services.FileService.fromDbToXml(FileService.java:31)
+	at com.iis.soft.services.FileServiceTest.fromDbToXml(FileServiceTest.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-05-02 03:12:12 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-05-02 03:12:13 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:12:13 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:12:13 INFO  DbDao:37 - Select all
+2017-05-02 03:12:13 INFO  DbDao:91 - Delete data
+2017-05-02 03:12:13 INFO  DbDao:64 - Insert data
+2017-05-02 03:12:13 INFO  DbDao:117 - Update data
+2017-05-02 03:12:13 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:12:13 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:12:13 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:12:49 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-05-02 03:12:49 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:12:49 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:12:49 INFO  DbDao:37 - Select all
+2017-05-02 03:12:49 INFO  DbDao:91 - Delete data
+2017-05-02 03:12:49 INFO  DbDao:64 - Insert data
+2017-05-02 03:12:49 INFO  DbDao:117 - Update data
+2017-05-02 03:12:49 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:12:49 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:12:49 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:12:57 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\D:\Vlad\iis\exam-db\exam\src\main\resources\file.xml (–°–∏–Ω—Ç–∞–∫—Å–∏—á–µ—Å–∫–∞—è –æ—à–∏–±–∫–∞ –≤ –∏–º–µ–Ω–∏ —Ñ–∞–π–ª–∞, –∏–º–µ–Ω–∏ –ø–∞–ø–∫–∏ –∏–ª–∏ –º–µ—Ç–∫–µ —Ç–æ–º–∞)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:51)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:237)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+2017-05-02 03:12:57 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:12:57 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:12:57 INFO  DbDao:37 - Select all
+2017-05-02 03:12:58 INFO  DbDao:91 - Delete data
+2017-05-02 03:12:58 INFO  DbDao:64 - Insert data
+2017-05-02 03:12:58 INFO  DbDao:117 - Update data
+2017-05-02 03:12:58 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:12:58 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:12:58 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:14:15 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:14:15 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:14:15 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:14:15 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:14:15 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:14:15 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:14:15 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:14:16 INFO  DbDao:64 - Insert data
+2017-05-02 03:14:16 INFO  DbDao:37 - Select all
+2017-05-02 03:14:16 INFO  DbDao:91 - Delete data
+2017-05-02 03:14:16 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:14:16 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:14:16 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:14:16 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:14:16 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:14:16 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:14:16 INFO  DbDao:37 - Select all
+2017-05-02 03:14:16 INFO  DbDao:91 - Delete data
+2017-05-02 03:14:16 INFO  DbDao:64 - Insert data
+2017-05-02 03:14:16 INFO  DbDao:117 - Update data
+2017-05-02 03:14:16 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:14:16 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:14:16 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:14:16 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:14:16 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:14:16 INFO  DbDao:37 - Select all
+2017-05-02 03:14:16 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:14:16 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:14:16 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:14:16 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:14:16 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:15:54 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:15:54 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:15:54 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:15:54 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:15:54 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:15:54 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:15:54 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:15:54 INFO  DbDao:64 - Insert data
+2017-05-02 03:15:54 INFO  DbDao:37 - Select all
+2017-05-02 03:15:54 INFO  DbDao:91 - Delete data
+2017-05-02 03:15:54 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:15:54 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:15:54 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:15:54 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:15:54 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:15:54 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:15:54 INFO  DbDao:37 - Select all
+2017-05-02 03:15:54 INFO  DbDao:91 - Delete data
+2017-05-02 03:15:54 INFO  DbDao:64 - Insert data
+2017-05-02 03:15:54 INFO  DbDao:117 - Update data
+2017-05-02 03:15:54 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:15:54 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:15:54 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:15:55 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:15:55 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:15:55 INFO  DbDao:37 - Select all
+2017-05-02 03:15:55 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:15:55 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:15:55 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:15:55 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:15:55 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:20:39 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:20:39 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:20:39 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:20:39 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:20:39 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:20:39 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:20:39 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:20:39 INFO  DbDao:64 - Insert data
+2017-05-02 03:20:39 INFO  DbDao:37 - Select all
+2017-05-02 03:20:39 INFO  DbDao:91 - Delete data
+2017-05-02 03:20:39 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:20:39 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:20:39 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:20:39 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:20:39 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:20:39 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:20:39 INFO  DbDao:37 - Select all
+2017-05-02 03:20:39 INFO  DbDao:91 - Delete data
+2017-05-02 03:20:39 INFO  DbDao:64 - Insert data
+2017-05-02 03:20:39 INFO  DbDao:117 - Update data
+2017-05-02 03:20:39 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:20:39 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:20:39 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:20:39 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:20:39 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:20:39 INFO  DbDao:37 - Select all
+2017-05-02 03:20:39 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:20:39 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:20:39 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:20:39 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:20:40 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:23:22 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:23:22 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:23:22 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:23:22 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:23:22 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:23:23 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:23:23 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:23:23 INFO  DbDao:64 - Insert data
+2017-05-02 03:23:23 INFO  DbDao:37 - Select all
+2017-05-02 03:23:23 INFO  DbDao:91 - Delete data
+2017-05-02 03:23:23 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:23:23 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:23:23 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:23:23 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:23:23 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:23:23 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:23:23 INFO  DbDao:37 - Select all
+2017-05-02 03:23:23 INFO  DbDao:91 - Delete data
+2017-05-02 03:23:23 INFO  DbDao:64 - Insert data
+2017-05-02 03:23:23 INFO  DbDao:117 - Update data
+2017-05-02 03:23:23 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:23:23 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:23:23 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:23:23 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:23:23 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:23:23 INFO  DbDao:37 - Select all
+2017-05-02 03:23:23 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:23:23 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:23:23 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:23:23 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:23:23 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:26:20 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:26:20 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:26:20 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:26:20 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:26:20 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:26:20 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:26:20 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:26:20 INFO  DbDao:64 - Insert data
+2017-05-02 03:26:20 INFO  DbDao:37 - Select all
+2017-05-02 03:26:20 INFO  DbDao:91 - Delete data
+2017-05-02 03:26:20 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:26:20 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:26:20 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:26:20 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:26:20 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:26:20 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:26:20 INFO  DbDao:37 - Select all
+2017-05-02 03:26:20 INFO  DbDao:91 - Delete data
+2017-05-02 03:26:20 INFO  DbDao:64 - Insert data
+2017-05-02 03:26:20 INFO  DbDao:117 - Update data
+2017-05-02 03:26:20 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:26:20 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:26:20 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:26:21 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:26:21 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:26:21 INFO  DbDao:37 - Select all
+2017-05-02 03:26:21 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:26:21 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:26:21 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:26:21 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:26:21 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:27:52 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:27:52 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:27:52 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:27:52 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:27:52 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:27:52 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:27:52 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:27:52 INFO  DbDao:64 - Insert data
+2017-05-02 03:27:52 INFO  DbDao:37 - Select all
+2017-05-02 03:27:52 INFO  DbDao:91 - Delete data
+2017-05-02 03:27:52 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:27:52 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:27:52 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:27:52 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:27:52 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:27:52 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:27:52 INFO  DbDao:37 - Select all
+2017-05-02 03:27:52 INFO  DbDao:91 - Delete data
+2017-05-02 03:27:52 INFO  DbDao:64 - Insert data
+2017-05-02 03:27:52 INFO  DbDao:117 - Update data
+2017-05-02 03:27:52 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:27:52 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:27:52 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:27:52 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:27:52 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:27:52 INFO  DbDao:37 - Select all
+2017-05-02 03:27:52 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:27:52 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:27:52 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:27:52 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:27:52 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:29:17 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:29:17 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:29:17 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:29:17 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:29:17 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:29:17 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:29:17 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:29:17 INFO  DbDao:64 - Insert data
+2017-05-02 03:29:17 INFO  DbDao:37 - Select all
+2017-05-02 03:29:17 INFO  DbDao:91 - Delete data
+2017-05-02 03:29:17 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:29:17 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:29:17 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:29:17 ERROR XmlDao:62 - XmlDao read error: 
+java.io.FileNotFoundException: D:\Vlad\iis\exam-db\exam\target\classes\test.xml (ÕÂ Û‰‡ÂÚÒˇ Ì‡ÈÚË ÛÍ‡Á‡ÌÌ˚È Ù‡ÈÎ)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:623)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:189)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:812)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:243)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:205)
+	at com.iis.soft.dao.XmlDao.readFromXml(XmlDao.java:41)
+	at com.iis.soft.services.FileService.syncDbWithXml(FileService.java:42)
+	at com.iis.soft.services.FileServiceTest.syncDbWithXml(FileServiceTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+2017-05-02 03:29:17 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:29:17 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:29:17 INFO  DbDao:37 - Select all
+2017-05-02 03:29:17 INFO  DbDao:91 - Delete data
+2017-05-02 03:29:17 INFO  DbDao:64 - Insert data
+2017-05-02 03:29:17 INFO  DbDao:117 - Update data
+2017-05-02 03:29:17 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:29:17 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:29:17 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:29:17 INFO  DbDataSource:39 - Connection: jdbc:postgresql://localhost:5432/postgres, UserName=postgres, PostgreSQL Native Driver
+2017-05-02 03:29:17 INFO  DbDataSource:41 - AutoCommit = false
+2017-05-02 03:29:17 INFO  DbDao:37 - Select all
+2017-05-02 03:29:17 INFO  DbDataSource:51 - Connection commit
+2017-05-02 03:29:17 INFO  DbDataSource:53 - Connection close
+2017-05-02 03:29:17 INFO  DbDataSource:55 - DataSource is closed!
+2017-05-02 03:29:17 INFO  XmlDao:73 - Start write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
+2017-05-02 03:29:17 INFO  XmlDao:107 - Write to file: /D:/Vlad/iis/exam-db/exam/target/classes//test.xml
